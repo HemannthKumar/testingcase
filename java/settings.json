@@ -1,0 +1,108 @@
+
+package hello.java;
+
+public class learning {
+
+	public static void main(String[] args) {
+		//dealing with variables
+		float myFloatNum = 5.99f;
+		char myLetter = 'D';
+		boolean myBool = true;
+	
+	
+		System.out.println(myFloatNum);
+		System.out.println(myLetter );
+		System.out.println(myBool);
+		/*1.Names can contain letters, digits, underscores, and dollar signs
+		2.Names must begin with a letter
+		3.Names should start with a lowercase letter, and cannot contain whitespace
+		4.Names can also begin with $ and _
+		5.Names are case-sensitive ("myVar" and "myvar" are different variables)
+		6.Reserved words (like Java keywords, such as int or boolean) cannot be used as names*/
+
+		
+		//primitive data types
+		//byte
+		//int
+		//char
+		//flaot
+		//long
+		//double
+		//boolean
+		//short
+		long myNum = 190000000;
+		double age = 1.0000;
+		 
+				boolean myFuture = true;
+		
+		String Name = "hemah";//creating an string
+		String hello = "jii";
+		System.out.println(Name.length());
+		//CONCATINATION OF STRINGS
+		System.out.println(Name+" "+hello);
+		System.out.println(Name.toUpperCase());
+		System.out.println(Name.toLowerCase());
+		System.out.println(Name.indexOf("m"));
+		
+		System.out.println(myNum);
+		System.out.println(age);
+		System.out.println(myFuture);
+		
+		/*//TYPE CASTING
+		//1.WIDENING CASTING
+		
+		//BYTE>SHORT>CHAR>INT>LONG>FLOAT>DOUBLE
+		//2.NARROWING CASTING
+		//DOBLE>FLOAT>LLONG>INT>>CHAR>SHORT>BYTE*/
+		//TYPE casting is method that can be used to converting the data types
+		
+		//maths in java
+		//for writing the RANDOM NUMBERS WE USE
+		
+		int random =(int) (Math.random()*101);//MATH.random()
+		System.out.println(random);
+		
+		/*//IF ELSE CONDITONS
+		 *Use if to specify a block of code to be executed, if a specified condition is true
+          *Use else to specify a block of code to be executed, if the same condition is false
+             *Use else if to specify a new condition to test, if the first condition is false
+               *Use switch to specify many alternative blocks of code to be executed
+		 */
+		int j = 20;
+		int k = 3;
+		float a = j * k;
+	System.out.println(a);
+	if(j ==0) {//if condition
+		System.out.println("the is wronbg"+j);
+		
+	}else if(j !=0) {//else if condtion for another statemnt 
+		System.out.println("the is correct"+k);
+	}else {
+		System.out.println("both are wrong"+j+k);
+	}
+	//TERNARY OPERATOR
+		
+			int time = 29;
+			String r = (time<29)? "gooo" : "good";//variable (condition)?expression:expresionfalse;
+			System.out.println(r);
+//SWITCH STATEMENTS
+			int x = 3;
+			switch(x) {
+			case 1:
+				System.out.println("thes");
+			case 2:
+				System.out.println("there");
+			case 3:
+				System.out.println("they");
+			}
+				
+			
+			
+			
+			
+		////NON PRIMITIVE DATA TYPES(REFERENCE DATATYPES)
+		
+		
+	}
+
+}
